@@ -1,8 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: white;
+    max-width: 20rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.15);
+}
+
+.qr-code {
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+.item-2 {
+    margin: 0.313rem;
+    text-align: center;
+    font-size: 0.9375rem;
+}
+
+.paragraph {
+    margin-top: 0.313rem;
+    color: hsl(220, 15%, 55%);
 }
 
 .attribution {
@@ -11,77 +45,5 @@ body {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    font-size: 12px;
-}
-
-.container {
-    background-color: white;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: auto;
-    width: 23%;
-    text-align: center;
-    padding: 20px;
-    border-radius: 16px;
-    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.15);
-}
-
-.qr-code {
-    width: 100%;
-    border-radius: 16px;
-}
-
-.header {
-    font-size: 26px;
-}
-
-.paragraph {
-    font-size: 15px;
-    color: hsl(220, 15%, 55%);
-}
-
-@media only screen and (max-width: 375px) {
-    .container {
-        width: 70%;
-        height: auto;
-    }
-    .qr-code {
-        width: 100%;
-    }
-    .header {
-        font-size: 20px;
-    }
-    p.paragraph {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (max-width: 633px) {
-    .container {
-        width: 40%;
-        text-align: center;
-        padding: 20px;
-        border-radius: 16px;
-        box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.15);
-    }
-    .header {
-        font-size: 20px;
-    }
-    p.paragraph {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (min-device-width: 414px) and (max-device-width: 896px) {
-    .container {
-        width: 80%;
-    }
-    .header {
-        font-size: 52px;
-    }
-    p.paragraph {
-        font-size: 34px;
-    }
+    font-size: 0.75rem;
 }
