@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 12px;
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    width: 23%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.15);
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.header {
+    font-size: 26px;
+}
+
+.paragraph {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 70%;
+        height: auto;
+    }
+    .qr-code {
+        width: 100%;
+    }
+    .header {
+        font-size: 20px;
+    }
+    p.paragraph {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 633px) {
+    .container {
+        width: 40%;
+        text-align: center;
+        padding: 20px;
+        border-radius: 16px;
+        box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.15);
+    }
+    .header {
+        font-size: 20px;
+    }
+    p.paragraph {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px) {
+    .container {
+        width: 80%;
+    }
+    .header {
+        font-size: 52px;
+    }
+    p.paragraph {
+        font-size: 34px;
+    }
+}
