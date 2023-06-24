@@ -2,7 +2,7 @@
 
 ![Design preview for the QR Code Component](https://github.com/BlackFury117/QR-Code-Component/blob/main/design/desktop-preview.jpg?raw=true)
 
-**This is my first challenge on Frontend Mentor, and I intend to continue all the challenges that will stand in front of me ✌🏾, until I better master HTLM, CSS, SASS, Less, Bootstrap, JavaScript, React etc...**
+**This is my first challenge on Frontend Mentor, and I intend to continue all the challenges that will stand in front of me ✌🏾, until I better master HTLM, CSS, SASS, Less, Bootstrap, Tailwind CSS, JavaScript, React etc...**
 
 ## Built with
 
